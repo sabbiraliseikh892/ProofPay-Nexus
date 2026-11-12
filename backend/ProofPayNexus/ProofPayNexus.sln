@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofPayNexus.API", "ProofPayNexus.API\ProofPayNexus.API.csproj", "{77AD62CF-0406-473B-93ED-81FFBE93B9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofPayNexus.Application", "ProofPayNexus.Application\ProofPayNexus.Application.csproj", "{183CA2E5-3579-4B96-807B-8DEB70B76B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofPayNexus.Domain", "ProofPayNexus.Domain\ProofPayNexus.Domain.csproj", "{39DD5590-E7AA-4CE1-BE51-1252F386FFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofPayNexus.Infrastructure", "ProofPayNexus.Infrastructure\ProofPayNexus.Infrastructure.csproj", "{3FED100B-175F-476E-BD2C-42518155A99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofPayNexus.Persistence", "ProofPayNexus.Persistence\ProofPayNexus.Persistence.csproj", "{BA7D6C50-75AF-49B2-9C01-F2B3162C3C70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04C03905-6F04-490C-852C-A2BFAB6E1EB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7E62BF34-8FA0-4D43-9F40-28CE947C1EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofPayNexus.Tests", "ProofPayNexus.Tests\ProofPayNexus.Tests.csproj", "{8B158F02-F58F-498C-A599-13B54B799B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77AD62CF-0406-473B-93ED-81FFBE93B9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AD62CF-0406-473B-93ED-81FFBE93B9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AD62CF-0406-473B-93ED-81FFBE93B9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AD62CF-0406-473B-93ED-81FFBE93B9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183CA2E5-3579-4B96-807B-8DEB70B76B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183CA2E5-3579-4B96-807B-8DEB70B76B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183CA2E5-3579-4B96-807B-8DEB70B76B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183CA2E5-3579-4B96-807B-8DEB70B76B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DD5590-E7AA-4CE1-BE51-1252F386FFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DD5590-E7AA-4CE1-BE51-1252F386FFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DD5590-E7AA-4CE1-BE51-1252F386FFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DD5590-E7AA-4CE1-BE51-1252F386FFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FED100B-175F-476E-BD2C-42518155A99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FED100B-175F-476E-BD2C-42518155A99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FED100B-175F-476E-BD2C-42518155A99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FED100B-175F-476E-BD2C-42518155A99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7D6C50-75AF-49B2-9C01-F2B3162C3C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7D6C50-75AF-49B2-9C01-F2B3162C3C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7D6C50-75AF-49B2-9C01-F2B3162C3C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7D6C50-75AF-49B2-9C01-F2B3162C3C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B158F02-F58F-498C-A599-13B54B799B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B158F02-F58F-498C-A599-13B54B799B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B158F02-F58F-498C-A599-13B54B799B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B158F02-F58F-498C-A599-13B54B799B04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77AD62CF-0406-473B-93ED-81FFBE93B9F6} = {04C03905-6F04-490C-852C-A2BFAB6E1EB7}
+		{183CA2E5-3579-4B96-807B-8DEB70B76B65} = {04C03905-6F04-490C-852C-A2BFAB6E1EB7}
+		{39DD5590-E7AA-4CE1-BE51-1252F386FFF3} = {04C03905-6F04-490C-852C-A2BFAB6E1EB7}
+		{3FED100B-175F-476E-BD2C-42518155A99F} = {04C03905-6F04-490C-852C-A2BFAB6E1EB7}
+		{BA7D6C50-75AF-49B2-9C01-F2B3162C3C70} = {04C03905-6F04-490C-852C-A2BFAB6E1EB7}
+		{8B158F02-F58F-498C-A599-13B54B799B04} = {7E62BF34-8FA0-4D43-9F40-28CE947C1EE3}
+	EndGlobalSection
+EndGlobal

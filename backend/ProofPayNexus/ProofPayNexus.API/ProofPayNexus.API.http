@@ -1,0 +1,6 @@
+@ProofPayNexus.API_HostAddress = http://localhost:5134
+
+GET {{ProofPayNexus.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
